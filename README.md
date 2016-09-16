@@ -4,7 +4,7 @@ Ruby Exercise Hedspi K58 :+1:
 ### Exercise
 
 * HomeWork2 : Simple demo_app with user and micropost model
-* HomeWork3 
+* HomeWork3 : Simple static app : sample_app (without responsive) 
 * HomeWork4 
 * HomeWork5
 
