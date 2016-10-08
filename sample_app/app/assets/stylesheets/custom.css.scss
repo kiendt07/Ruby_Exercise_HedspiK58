@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "bootstrap-sprockets";
 
 /* universal */
 
@@ -20,13 +21,12 @@ textarea {
 
 .center {
   text-align: center;
-  margin-top: 100px
+  margin-top: 100px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
-
-.center h1 {
-  margin-bottom: 10px;
-}
-
+/* header */
 #logo {
   float: left;
   font-size: 2em;
@@ -34,13 +34,12 @@ textarea {
   color: #fff;
   padding-top: 10px;
   font-weight: bold;
-  line-height: 1
+  line-height: 1;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
 
-}
-
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
 }
 
 /* typography */
@@ -65,8 +64,33 @@ h2 {
   color: #999;
 }
 
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+
 /* footer */
 footer {
-  position: fixed;
-  background-color: white;
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+  a {
+    color: #555;
+    &:hover {
+      color: $gray-darker;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
 }
