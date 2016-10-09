@@ -5,9 +5,12 @@ Ruby Exercise Hedspi K58 :+1:
 
 * HomeWork2 : Simple demo_app with user and micropost model
 * HomeWork3 : Simple static app : sample_app (without responsive) 
-* HomeWork4 
-* HomeWork5
+* HomeWork4 : SignUp, Login Function
+* HomeWork5 
 
+### Website
+
+* [Sample_app] (http://twitter-hedspi.herokuapp.com/)
 ### About Me
 
 * [Tran B. V. Son] (https://about.me/tbvson)
